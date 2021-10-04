@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  background: #00009b;
+}
+
+.nav-list {
+  --hover-position-x: 0;
+  --hover-position-y: 0;
+  --hover-width: 0;
+  --hover-height: 0;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0 2rem;
+  position: relative;
+}
+
+#width-example .nav-list {
+  width: 80vw;
+}
+
+#height-example .nav-list {
+  width: 40vw;
+}
+
+.nav-list::after {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.3);
+  width: var(--hover-width);
+  height: var(--hover-height);
+  position: absolute;
+  top: var(--hover-position-y);
+  left: var(--hover-position-x);
+  transition: 0.3s all ease-in-out;
+}
+
+.nav-list-item {
+  padding: 2rem;
+}
+
+.nav-list-item-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-list-item-link:focus,
+.nav-list-item-link:hover {
+  color: #fff;
+  opacity: 0.8;
+  transition: 0.3s all ease-in-out;
+}
