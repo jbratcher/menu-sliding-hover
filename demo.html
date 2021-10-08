@@ -28,10 +28,10 @@
                         <nav class="nav">
                             <ul class="nav-list" id="height">
                                 <li class="nav-list-item">
-                                    <a class="nav-list-item-link" href="#">Link 1</a>
+                                    <a class="nav-list-item-link" href="/">Home</a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-item-link" href="#">Long Link 2</a>
+                                    <a class="nav-list-item-link" href="/demo">Demos</a>
                                 </li>
                                 <li class="nav-list-item">
                                     <a class="nav-list-item-link" href="#">Super Long Link 3</a>
@@ -78,10 +78,41 @@
 
     </div>
 
+    <!-- vertical menu example -->
+    <div class="container">
+        <h3 class="mb-5">Menu is vertical instead of horizontal</h3>
+        <div id="width-example">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col d-flex justify-content-center">
+                        <nav class="nav">
+                            <ul class="nav-list d-flex flex-column" id="vertical">
+                                <li class="nav-list-item">
+                                    <a class="nav-list-item-link" href="#">Link 1</a>
+                                </li>
+                                <li class="nav-list-item">
+                                    <a class="nav-list-item-link" href="#">Long Link 2</a>
+                                </li>
+                                <li class="nav-list-item">
+                                    <a class="nav-list-item-link" href="#">Super Long Link 3</a>
+                                </li>
+                                <li class="nav-list-item">
+                                    <a class="nav-list-item-link" href="#">A link with a super long text attached 4</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <script type="module">
         import { createAnimatedNav } from './index.js';
         createAnimatedNav("width");
         createAnimatedNav("height");
+        createAnimatedNav("vertical");
     </script>
 </body>
 
