@@ -162,9 +162,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Jeremy Bratcher: [https://github.com/jbratcher](https://github.com/jbratcher)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/jbratcher/menu-sliding-hover](https://github.com/jbratcher/menu-sliding-hover)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -172,10 +172,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
+- [Inspiration](https://emilkowal.ski/ui/tabs)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
